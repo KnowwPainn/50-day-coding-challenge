@@ -1,5 +1,5 @@
 # 50-day-coding-challenge
-Here are 50 coding challenges progressively increasing in difficulty, utilizing JavaScript, CSS, HTML, and SQL. Each challenge builds upon the previous one and introduces new concepts or skills. These challenges are designed to be completed one per day: Start Date March 12, 2024
+Here are 50 coding challenges progressively increasing in difficulty, utilizing JavaScript, CSS, HTML, and SQL. Each challenge builds upon the previous one and introduces new concepts or skills. These challenges are designed to be completed one per day: Start Date March 18, 2024
 
 Day 1: HTML Basics
 Challenge: Create a simple webpage with HTML that displays your name and a short bio.

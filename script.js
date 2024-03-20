@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     var button = document.getElementById("greetingButton");
+    var emoji = "😊"; // Smiley emoji
+
 
     button.addEventListener("click", function() {
         var now = new Date();
@@ -14,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
             greeting = "Good evening!";
         }
 
-        alert(greeting);
+        alert(greeting + " " + emoji);
     });
 });
 

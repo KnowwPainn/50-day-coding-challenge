@@ -44,7 +44,7 @@ main {
 
 /* Button styles with animation */
 button {
-    position: absolute;
+    position: relative;
     left: calc(50% - 3em);
     top: calc(50% - 2em);
     height: 4em;

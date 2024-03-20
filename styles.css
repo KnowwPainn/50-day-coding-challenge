@@ -1,1 +1,43 @@
- 
+/* styles.css */
+
+/* Change the font color of my headings */
+h1, h2 {
+    color: #007bff;
+}
+
+/* Change the font color and ass some margins to my paragraphs*/
+p {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Change the font color of my list items */
+ul li {
+    color: #555;
+}
+
+/* Change the font color of links when added */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add some padding and background color to my header */
+header {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Add some padding to the main content I have */
+main {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}

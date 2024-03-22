@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var hour = now.getHours();
         var greeting;
 
-        // Calculate age dynamically based on birthdate
+        // Calculate age dynamically based on my birthdate
         var age = now.getFullYear() - birthdate.getFullYear();
         var birthMonth = birthdate.getMonth();
         var currentMonth = now.getMonth();
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("result").textContent = "Result: " + result;
     });
 
-    // Toggle visibility of calculator
+    // Toggle visibility of my calculator
     calculatorButton.addEventListener("click", function() {
         var calculator = document.getElementById("calculator");
         calculator.style.display = (calculator.style.display === "none") ? "block" : "none";

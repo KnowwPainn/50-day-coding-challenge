@@ -42,17 +42,34 @@ main {
   text-align: center;
 }
 
+/* Add some padding and background color to the footer */
+footer {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between; /* Align tabs to opposite sides */
+}
+
+/* Tab styles */
+.tab {
+  padding: 10px 20px;
+  background-color: #007bff; 
+  color: #fff;
+  border: none;
+  border-radius: 5px 5px 0 0; /* Rounded corners on top */
+  cursor: pointer;
+}
+
 /* Button styles with animation */
 button {
   position: relative;
-  left: calc(50% - 3em);
-  top: calc(50% - 2em);
   height: 4em;
   width: 7em;
   background: #444;
   background: linear-gradient(top, #555, #333);
   border: none;
-  border-top: 3px solid #007bff;
+  border-top: 3px solid #007bff; 
   border-radius: 0 0 0.2em 0.2em;
   color: #fff;
   font-family: Helvetica, Arial, Sans-serif;

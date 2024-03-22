@@ -2,86 +2,86 @@
 
 /* Change the font color of my headings */
 h1, h2 {
-    color: #007bff;
+  color: #007bff;
 }
 
 /* Change the font color and ass some margins to my paragraphs*/
 p {
-    color: #fff;
-    margin-bottom: 20px;
-    font-size: 16px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 16px;
 }
 
 /* Change the font color of my list items */
 ul li {
-    color: #555;
+  color: #555;
 }
 
 /* Change the font color of links when added */
 a {
-    color: #007bff;
-    text-decoration: none;
+  color: #007bff;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Add some padding and background color to my header */
 header {
-    padding: 20px;
-    background-color: #f8f9fa;
-    border-bottom: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ccc;
 }
 
 /* Add some padding to the main content I have */
 main {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
 }
 
 /* Button styles with animation */
 button {
-    position: relative;
-    left: calc(50% - 3em);
-    top: calc(50% - 2em);
-    height: 4em;
-    width: 7em;
-    background: #444;
-    background: linear-gradient(top, #555, #333);
-    border: none;
-    border-top: 3px solid #007bff;
-    border-radius: 0 0 0.2em 0.2em;
-    color: #fff;
-    font-family: Helvetica, Arial, Sans-serif;
-    font-size: 1em;
-    transform-origin: 50% 5em;
-    animation: wiggle 2s linear infinite; /* Add animation to the button */
+  position: relative;
+  left: calc(50% - 3em);
+  top: calc(50% - 2em);
+  height: 4em;
+  width: 7em;
+  background: #444;
+  background: linear-gradient(top, #555, #333);
+  border: none;
+  border-top: 3px solid #007bff;
+  border-radius: 0 0 0.2em 0.2em;
+  color: #fff;
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 1em;
+  transform-origin: 50% 5em;
+  animation: wiggle 2s linear infinite; /* Add animation to the button */
+}
+
+/* Keyframes for button animation */
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
   }
-  
-  /* Keyframes for button animation */
-  @keyframes wiggle {
-    0%, 7% {
-      transform: rotateZ(0);
-    }
-    15% {
-      transform: rotateZ(-15deg);
-    }
-    20% {
-      transform: rotateZ(10deg);
-    }
-    25% {
-      transform: rotateZ(-10deg);
-    }
-    30% {
-      transform: rotateZ(6deg);
-    }
-    35% {
-      transform: rotateZ(-4deg);
-    }
-    40%, 100% {
-      transform: rotateZ(0);
-    }
+  15% {
+    transform: rotateZ(-15deg);
   }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}

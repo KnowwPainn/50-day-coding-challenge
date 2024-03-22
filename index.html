@@ -12,7 +12,6 @@
         <h1>Ethan Haynes</h1>
     </header>
     
-
     <main>
         <p>My name is Ethan. Some things about me is that I love to read books, take care of my plants, and cook and bake. I am also a big fan of watching anime and exploring new things in the world. Currently, I am a Tech Lead and Fullstack Software Engineer at my job. I have always loved programming and technology in general beacuse it's like magic to me. With my favorite TV series genre being fantasy, it was only natural for me to fall in love with coding. </p>
     
@@ -26,12 +25,27 @@
         </ul>
 
         <button id="greetingButton">Click me for a greeting!</button>
+        <button id="calculatorButton">Exponent Calculator</button> <!-- New button for calculator -->
+
+        <div id="calculator" style="display:none;">
+            <h2>Exponent Calculator</h2>
+            <form id="exponentForm">
+                <label for="base">Base:</label>
+                <input type="number" id="base" name="base" required>
+                <br>
+                <label for="exponent">Exponent:</label>
+                <input type="number" id="exponent" name="exponent" required>
+                <br>
+                <button type="submit">Calculate</button>
+            </form>
+            <div id="result"></div>
+        </div>
     </main>
 
     <footer>
         &copy; 2024 Ethan Haynes
     </footer>
 
- <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

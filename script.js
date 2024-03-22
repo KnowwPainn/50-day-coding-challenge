@@ -1,13 +1,14 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var button = document.getElementById("greetingButton");
+    var greetingButton = document.getElementById("greetingButton");
+    var calculatorButton = document.getElementById("calculatorButton");
     var emoji = "😊"; // Smiley emoji
 
     // Define variables for name, birthdate, and favorite hobby
     var name = "Ethan";
-    var birthdate = new Date("2000-04-03"); // My birthdayt
+    var birthdate = new Date("2000-04-03"); // My birthday
     var favoriteHobby = "Listening to Music";
 
-    button.addEventListener("click", function() {
+    greetingButton.addEventListener("click", function() {
         var now = new Date();
         var hour = now.getHours();
         var greeting;
@@ -31,5 +32,26 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Display greeting with variables in an alert
         alert(greeting + "\nName: " + name + "\nAge: " + age + "\nFavorite Hobby: " + favoriteHobby + " " + emoji);
+    });
+
+    // Function to calculate exponent
+    function calculateExponent(base, exponent) {
+        return Math.pow(base, exponent);
+    }
+
+    // Handling form submission for exponent calculator
+    var exponentForm = document.getElementById("exponentForm");
+    exponentForm.addEventListener("submit", function(event) {
+        event.preventDefault();
+        var base = parseFloat(document.getElementById("base").value);
+        var exponent = parseFloat(document.getElementById("exponent").value);
+        var result = calculateExponent(base, exponent);
+        document.getElementById("result").textContent = "Result: " + result;
+    });
+
+    // Toggle visibility of calculator
+    calculatorButton.addEventListener("click", function() {
+        var calculator = document.getElementById("calculator");
+        calculator.style.display = (calculator.style.display === "none") ? "block" : "none";
     });
 });

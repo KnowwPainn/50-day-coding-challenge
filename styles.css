@@ -5,7 +5,7 @@ h1, h2 {
   color: #007bff;
 }
 
-/* Change the font color and ass some margins to my paragraphs*/
+/* Change the font color and add some margins to my paragraphs*/
 p {
   color: #fff;
   margin-bottom: 20px;
@@ -48,8 +48,33 @@ footer {
   background-color: #f8f9fa;
   border-top: 1px solid #ccc;
   display: flex;
-  justify-content: space-between; /* Align tabs to opposite sides */
+  justify-content: space-between; 
 }
+
+#aboutMeButton {
+  padding: 10px 20px;
+  border: none;
+  border-top: 3px solid #007bff; 
+  border-radius: 0 0 0.2em 0.2em;
+  background-color:linear-gradient(top, #555, #333);
+  color: #fff;
+  font-size: 16px;
+}
+
+#aboutMeContainer {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999; 
+  padding: 10px; 
+  background-color: rgba(0, 123, 255, 0.8); 
+  border-radius: 8px;
+}
+
+#aboutMeButton:hover {
+  background-color: #0056b3;
+}
+
 
 /* Tab styles */
 .tab {
@@ -57,8 +82,12 @@ footer {
   background-color: #007bff; 
   color: #fff;
   border: none;
-  border-radius: 5px 5px 0 0; /* Rounded corners on top */
+  border-radius: 5px 5px 0 0; 
   cursor: pointer;
+}
+
+.tab:hover {
+  background-color: #0056b3; 
 }
 
 /* Button styles with animation */
@@ -75,7 +104,7 @@ button {
   font-family: Helvetica, Arial, Sans-serif;
   font-size: 1em;
   transform-origin: 50% 5em;
-  animation: wiggle 2s linear infinite; /* Add animation to the button */
+  animation: wiggle 2s linear infinite; 
 }
 
 /* Keyframes for button animation */
@@ -100,5 +129,21 @@ button {
   }
   40%, 100% {
     transform: rotateZ(0);
+  }
+}
+
+/* Add glow and wiggle animation to the button */
+.glow-and-wiggle {
+  animation: glow-and-wiggle 2s linear infinite;
+}
+
+@keyframes glow-and-wiggle {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+    box-shadow: 0 0 10px #007bff, 0 0 20px #007bff, 0 0 30px #007bff, 0 0 40px #007bff, 0 0 50px #007bff, 0 0 60px #007bff, 0 0 70px #007bff;
+  }
+  50% {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 0 20px #007bff, 0 0 30px #007bff, 0 0 40px #007bff, 0 0 50px #007bff, 0 0 60px #007bff, 0 0 70px #007bff, 0 0 80px #007bff;
   }
 }

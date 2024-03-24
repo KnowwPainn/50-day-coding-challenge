@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     var greetingButton = document.getElementById("greetingButton");
     var calculatorButton = document.getElementById("calculatorButton");
+    var aboutMeButton = document.getElementById("aboutMeButton"); // "Tell me about yourself" button
     var emoji = "😊"; // Smiley emoji
 
     // Define variables for name, birthdate, and favorite hobby
@@ -64,4 +65,48 @@ document.addEventListener("DOMContentLoaded", function() {
         foodList.appendChild(listItem);
     });
     document.getElementById("favoriteFoods").appendChild(foodList);
+
+    // Display information about user's age
+    aboutMeButton.addEventListener("click", function() {
+        var age = prompt("Please enter your age:");
+        var message;
+
+        if (age === null) {
+            return; // If user cancels the prompt, do nothing
+        }
+
+        age = parseInt(age);
+
+        if (isNaN(age)) {
+            message = "Invalid age. Please enter a number.";
+        } else if (age < 0) {
+            message = "Age cannot be negative.";
+        } else {
+            message = "Congratulations for being on this planet for " + age + " years! 🌍";
+        }
+
+        alert(message);
+    });
+
+    // Event listener for "Tell me about yourself" button
+    aboutMeButton.addEventListener("click", function() {
+        var age = prompt("Please enter your age:");
+        var message;
+
+        if (age === null) {
+            return; // If user cancels the prompt, do nothing
+        }
+
+        age = parseInt(age);
+
+        if (isNaN(age)) {
+            message = "Invalid age. Please enter a number.";
+        } else if (age < 0) {
+            message = "Age cannot be negative.";
+        } else {
+            message = "Congratulations for being on this planet for " + age + " years! 🌍";
+        }
+
+        alert(message);
+    });
 });

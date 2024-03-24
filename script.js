@@ -83,6 +83,13 @@ document.addEventListener("DOMContentLoaded", function() {
             message = "Age cannot be negative.";
         } else {
             message = "Congratulations for being on this planet for " + age + " years! 🌍";
+            if (age < 18) {
+                message += "\nYou are under 18 years old, so not an adult just yet!";
+            } else if (age >= 18 && age <= 65) {
+                message += "\nYou are between 18 and 65 years old. You have so much life to live still!";
+            } else {
+                message += "\nYou are over 65 years old. You should have wiseness that comes with your age!";
+            }
         }
 
         alert(message);

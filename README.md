@@ -1,51 +1,51 @@
 # 50-day-coding-challenge
 Here are 50 coding challenges progressively increasing in difficulty, utilizing JavaScript, CSS, HTML, and SQL. Each challenge builds upon the previous one and introduces new concepts or skills. These challenges are designed to be completed one per day: Start Date March 18, 2024
 
-Day 1: HTML Basics
+Day 1: HTML Basics (March 18, 2024)
 Challenge: Create a simple webpage with HTML that displays your name and a short bio.
 Stretch Goal: Add additional HTML elements such as headings, paragraphs, and lists to structure your webpage further.
 
-Day 2: CSS Styling
+Day 2: CSS Styling (March 19, 2024)
 Challenge: Style your webpage from Day 1 using CSS to change the font, color, and layout.
 Stretch Goal: Experiment with CSS selectors to target specific elements on your webpage and apply different styles.
 
-Day 3: JavaScript Basics
+Day 3: JavaScript Basics (March 20, 2024)
 Challenge: Add a button to your webpage that displays an alert with a greeting when clicked, using JavaScript.
 Stretch Goal: Modify the JavaScript code to change the greeting based on the time of day (e.g., Good morning, Good afternoon, Good evening).
 
-Day 4: JavaScript Variables and Data Types
+Day 4: JavaScript Variables and Data Types (March 21, 2024)
 Challenge: Create variables to store your name, age, and favorite hobby. Display these variables on your webpage.
 Stretch Goal: Convert the age variable to a different data type (e.g., string, boolean) and observe how it affects your program.
 
-Day 5: JavaScript Functions
+Day 5: JavaScript Functions (March 22, 2024)
 Challenge: Write a function that takes two parameters (a base and an exponent) and calculates the result of raising the base to the exponent. Display the result on your webpage.
 Stretch Goal: Extend the function to handle negative exponents or fractional exponents.
 
-Day 6: JavaScript Arrays
+Day 6: JavaScript Arrays (March 23, 2024)
 Challenge: Create an array of your favorite foods. Use JavaScript to display each food item in a list on your webpage.
 Stretch Goal: Use array methods like map, filter, or reduce to manipulate the array of foods in different ways (e.g., sorting alphabetically, filtering by length).
 
-Day 7: JavaScript Conditionals
+Day 7: JavaScript Conditionals (March 24, 2024)
 Challenge: Write a program that asks the user for their age and displays a different message based on whether they are under 18, between 18 and 65, or over 65.
 Stretch Goal: Implement additional conditions to customize the messages further (e.g., if the user's age is a prime number).
 
-Day 8: HTML Forms
+Day 8: HTML Forms (March 25, 2024)
 Challenge: Create a form on your webpage with fields for name, email, and message. Use HTML to structure the form elements.
 Stretch Goal: Add additional form fields (e.g., dropdown select, radio buttons) and validate them using HTML5 form validation attributes.
 
-Day 9: CSS Flexbox
+Day 9: CSS Flexbox (March 26, 2024)
 Challenge: Style your form from Day 8 using CSS flexbox to create a responsive layout.
 Stretch Goal: Create a more complex layout with nested flex containers to achieve more intricate designs.
 
-Day 10: JavaScript DOM Manipulation
+Day 10: JavaScript DOM Manipulation (March 27, 2024)
 Challenge: Use JavaScript to validate the form from Day 8. Display an error message if any field is left blank when the form is submitted.
 Stretch Goal: Enhance the form validation to display specific error messages for each input field.
 
-Day 11: JavaScript Events
+Day 11: JavaScript Events (March 28, 2024)
 Challenge: Add event listeners to your form from Day 8 to validate the input fields as the user types.
 Stretch Goal: Experiment with different event types (e.g., mouseover, keypress) and attach multiple event listeners to different elements on your webpage.
 
-Day 12: CSS Grid
+Day 12: CSS Grid (March 29, 2024)
 Challenge: Reformat your webpage layout using CSS grid for a more complex structure.
 Stretch Goal: Implement a responsive grid layout that adjusts dynamically based on the screen size using CSS grid media queries.
 

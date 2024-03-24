@@ -54,4 +54,14 @@ document.addEventListener("DOMContentLoaded", function() {
         var calculator = document.getElementById("calculator");
         calculator.style.display = (calculator.style.display === "none") ? "block" : "none";
     });
+
+    // Display favorite foods
+    var favoriteFoods = ["Mexican food", "Korean food", "Seafood", "Soul food"];
+    var foodList = document.createElement("ul");
+    favoriteFoods.forEach(function(food) {
+        var listItem = document.createElement("li");
+        listItem.textContent = food;
+        foodList.appendChild(listItem);
+    });
+    document.getElementById("favoriteFoods").appendChild(foodList);
 });

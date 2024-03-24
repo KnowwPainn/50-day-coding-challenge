@@ -58,7 +58,9 @@ footer {
   border-radius: 0 0 0.2em 0.2em;
   background-color:linear-gradient(top, #555, #333);
   color: #fff;
-  font-size: 16px;
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 1em;
+  transform-origin: 50% 5em;
 }
 
 #aboutMeContainer {
